@@ -1,0 +1,338 @@
+Log file created at: 2021/02/18 09:10:38
+Running on machine: DESKTOP-R2GNEFI
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0218 09:10:38.604281 14664 c_interface.cc:127] Logging enabled to .
+I0218 09:10:38.605286 14664 c_interface.cc:128] BigARTM version: v0.10.1
+I0218 09:10:38.605286 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 09:10:38.605286 14664 c_interface.cc:274] Creating MasterModel (id=1)...
+I0218 09:10:38.617280 14664 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 8
+I0218 09:10:39.235282 14664 c_interface.cc:375] Pass 2de554bb-0e2c-4c69-b8f3-378bfb11b657 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 09:10:39.236284 14664 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=2de554bb-0e2c-4c69-b8f3-378bfb11b657, data_path=lectures_batches, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0218 09:10:39.237282 14664 dictionary_operations.cc:265] Found 18 batches in 'lectures_batches' folder
+I0218 09:10:39.664284 14664 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0218 09:10:39.738281 14664 dictionary_operations.cc:611] Dictionary name='2de554bb-0e2c-4c69-b8f3-378bfb11b657' contains entries: author:539; text:26327; 
+I0218 09:30:30.546342 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=31, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 09:30:30.553530 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 09:30:30.553530 14664 c_interface.cc:274] Creating MasterModel (id=2)...
+I0218 09:30:30.553530 20364 processor.cc:58] Processor thread started
+I0218 09:30:30.553530 20360 processor.cc:58] Processor thread started
+I0218 09:30:30.554541 20412 processor.cc:58] Processor thread started
+I0218 09:30:30.554541 20408 processor.cc:58] Processor thread started
+I0218 09:30:30.554541 20404 processor.cc:58] Processor thread started
+I0218 09:30:30.554541 20416 processor.cc:58] Processor thread started
+I0218 09:30:30.554541 20400 processor.cc:58] Processor thread started
+I0218 09:30:30.554541 20396 processor.cc:58] Processor thread started
+I0218 09:30:30.581540 20360 processor.cc:74] No data in processing queue, waiting...
+I0218 09:30:30.581540 20364 processor.cc:74] No data in processing queue, waiting...
+I0218 09:30:30.582541 20412 processor.cc:74] No data in processing queue, waiting...
+I0218 09:30:30.582541 20396 processor.cc:74] No data in processing queue, waiting...
+I0218 09:30:30.582541 20404 processor.cc:74] No data in processing queue, waiting...
+I0218 09:30:30.582541 20400 processor.cc:74] No data in processing queue, waiting...
+I0218 09:30:30.582541 20416 processor.cc:74] No data in processing queue, waiting...
+I0218 09:30:30.582541 20408 processor.cc:74] No data in processing queue, waiting...
+I0218 09:40:49.736923 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 159 bytes...
+I0218 09:42:22.113204 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 398 bytes...
+I0218 09:46:57.871513 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=31, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 09:46:57.871513 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 09:46:57.872511 14664 c_interface.cc:274] Creating MasterModel (id=3)...
+I0218 09:46:57.872511 16900 processor.cc:58] Processor thread started
+I0218 09:46:57.872511 19608 processor.cc:58] Processor thread started
+I0218 09:46:57.872511 19628 processor.cc:58] Processor thread started
+I0218 09:46:57.872511 21080 processor.cc:58] Processor thread started
+I0218 09:46:57.872511 19612 processor.cc:58] Processor thread started
+I0218 09:46:57.872511 15860 processor.cc:58] Processor thread started
+I0218 09:46:57.872511 19616 processor.cc:58] Processor thread started
+I0218 09:46:57.872511 13640 processor.cc:58] Processor thread started
+I0218 09:46:57.902539 19628 processor.cc:74] No data in processing queue, waiting...
+I0218 09:46:57.902539 19612 processor.cc:74] No data in processing queue, waiting...
+I0218 09:46:57.902539 13640 processor.cc:74] No data in processing queue, waiting...
+I0218 09:46:57.902539 21080 processor.cc:74] No data in processing queue, waiting...
+I0218 09:46:57.902539 19616 processor.cc:74] No data in processing queue, waiting...
+I0218 09:46:57.902539 15860 processor.cc:74] No data in processing queue, waiting...
+I0218 09:46:57.902539 19608 processor.cc:74] No data in processing queue, waiting...
+I0218 09:46:57.902539 16900 processor.cc:74] No data in processing queue, waiting...
+I0218 09:46:59.486567 14664 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 09:46:59.486567 14664 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 09:46:59.486567 14664 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=2de554bb-0e2c-4c69-b8f3-378bfb11b657, topic_name_size=31, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0218 09:46:59.636819 14664 master_component.cc:702] InitializeModel() created matrix pwt with 31 topics and 26866 tokens; 
+I0218 09:46:59.636819 14664 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=2de554bb-0e2c-4c69-b8f3-378bfb11b657, topic_name_size=31, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0218 09:46:59.772819 14664 master_component.cc:702] InitializeModel() created matrix nwt with 31 topics and 26866 tokens; 
+I0218 09:46:59.772819 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 316 bytes...
+I0218 09:47:02.248378 14664 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 09:47:02.256398 14664 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 09:47:02.264407 14664 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=2de554bb-0e2c-4c69-b8f3-378bfb11b657, topic_name_size=31, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0218 09:47:02.390404 14664 master_component.cc:702] InitializeModel() created matrix pwt with 31 topics and 26866 tokens; 
+I0218 09:47:02.390404 14664 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=2de554bb-0e2c-4c69-b8f3-378bfb11b657, topic_name_size=31, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0218 09:47:02.508409 14664 master_component.cc:702] InitializeModel() created matrix nwt with 31 topics and 26866 tokens; 
+I0218 09:47:02.508409 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 316 bytes...
+I0218 09:47:13.822348 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 09:47:13.822348 14664 c_interface.cc:274] Creating MasterModel (id=4)...
+I0218 09:47:13.909363 20364 processor.cc:66] Processor thread stopped
+I0218 09:47:13.909363 20364 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:13.910367 20360 processor.cc:66] Processor thread stopped
+I0218 09:47:13.910367 20360 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:13.912364 20412 processor.cc:66] Processor thread stopped
+I0218 09:47:13.912364 20412 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:13.913946 20408 processor.cc:66] Processor thread stopped
+I0218 09:47:13.913946 20408 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:13.915916 20404 processor.cc:66] Processor thread stopped
+I0218 09:47:13.915916 20404 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:13.917912 20416 processor.cc:66] Processor thread stopped
+I0218 09:47:13.917912 20416 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:13.918913 20400 processor.cc:66] Processor thread stopped
+I0218 09:47:13.918913 20400 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:13.920912 20396 processor.cc:66] Processor thread stopped
+I0218 09:47:13.920912 20396 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:13.920912 14664 c_interface.cc:339] Disposing MasterComponent (id=2)...
+I0218 09:47:13.929950 14664 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 8
+W0218 09:47:13.953912 20740 helpers.cc:231] File already exists: lectures_batches\aaaaaa.batch
+W0218 09:47:13.981912  6412 helpers.cc:231] File already exists: lectures_batches\aaaaab.batch
+W0218 09:47:13.999912  6676 helpers.cc:231] File already exists: lectures_batches\aaaaae.batch
+W0218 09:47:14.005913  1304 helpers.cc:231] File already exists: lectures_batches\aaaaac.batch
+W0218 09:47:14.010912 20744 helpers.cc:231] File already exists: lectures_batches\aaaaad.batch
+W0218 09:47:14.016913  3216 helpers.cc:231] File already exists: lectures_batches\aaaaaf.batch
+W0218 09:47:14.035919 20740 helpers.cc:231] File already exists: lectures_batches\aaaaai.batch
+W0218 09:47:14.042912 11968 helpers.cc:231] File already exists: lectures_batches\aaaaah.batch
+W0218 09:47:14.051911 20748 helpers.cc:231] File already exists: lectures_batches\aaaaag.batch
+W0218 09:47:14.114912  6412 helpers.cc:231] File already exists: lectures_batches\aaaaaj.batch
+W0218 09:47:14.140913  6412 helpers.cc:231] File already exists: lectures_batches\aaaaar.batch
+W0218 09:47:14.160912 20748 helpers.cc:231] File already exists: lectures_batches\aaaaaq.batch
+W0218 09:47:14.286913  6676 helpers.cc:231] File already exists: lectures_batches\aaaaak.batch
+W0218 09:47:14.296912 20740 helpers.cc:231] File already exists: lectures_batches\aaaaao.batch
+W0218 09:47:14.305912 11968 helpers.cc:231] File already exists: lectures_batches\aaaaap.batch
+W0218 09:47:14.318914  1304 helpers.cc:231] File already exists: lectures_batches\aaaaal.batch
+W0218 09:47:14.325911  3216 helpers.cc:231] File already exists: lectures_batches\aaaaan.batch
+W0218 09:47:14.337913 20744 helpers.cc:231] File already exists: lectures_batches\aaaaam.batch
+I0218 09:47:14.358911 14664 c_interface.cc:375] Pass 068bfd6c-0b96-4094-8ca2-17e65d454387 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 09:47:14.358911 14664 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=068bfd6c-0b96-4094-8ca2-17e65d454387, data_path=lectures_batches, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0218 09:47:14.359913 14664 dictionary_operations.cc:265] Found 18 batches in 'lectures_batches' folder
+I0218 09:47:14.622488 14664 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0218 09:47:14.667493 14664 dictionary_operations.cc:611] Dictionary name='068bfd6c-0b96-4094-8ca2-17e65d454387' contains entries: author:539; text:26327; 
+I0218 09:47:16.483685 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=31, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 09:47:16.483685 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 09:47:16.484688 14664 c_interface.cc:274] Creating MasterModel (id=5)...
+I0218 09:47:16.484688 20372 processor.cc:58] Processor thread started
+I0218 09:47:16.484688 20300 processor.cc:58] Processor thread started
+I0218 09:47:16.484688  5784 processor.cc:58] Processor thread started
+I0218 09:47:16.484688  7396 processor.cc:58] Processor thread started
+I0218 09:47:16.485350 20812 processor.cc:58] Processor thread started
+I0218 09:47:16.485350 20840 processor.cc:58] Processor thread started
+I0218 09:47:16.485350  7376 processor.cc:58] Processor thread started
+I0218 09:47:16.485350 19468 processor.cc:58] Processor thread started
+I0218 09:47:16.485688 16900 processor.cc:66] Processor thread stopped
+I0218 09:47:16.485688 16900 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:16.486691 19608 processor.cc:66] Processor thread stopped
+I0218 09:47:16.486691 19608 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:16.487725 19628 processor.cc:66] Processor thread stopped
+I0218 09:47:16.487725 19628 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:16.489300 21080 processor.cc:66] Processor thread stopped
+I0218 09:47:16.489300 21080 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:16.490305 19612 processor.cc:66] Processor thread stopped
+I0218 09:47:16.490305 19612 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:16.491309 15860 processor.cc:66] Processor thread stopped
+I0218 09:47:16.491309 15860 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:16.492859 19616 processor.cc:66] Processor thread stopped
+I0218 09:47:16.492859 19616 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:16.493876 13640 processor.cc:66] Processor thread stopped
+I0218 09:47:16.493876 13640 processor.cc:67] Total number of processed batches: 0
+I0218 09:47:16.508891 20372 processor.cc:74] No data in processing queue, waiting...
+I0218 09:47:16.508891  5784 processor.cc:74] No data in processing queue, waiting...
+I0218 09:47:16.508891 20300 processor.cc:74] No data in processing queue, waiting...
+I0218 09:47:16.508891  7396 processor.cc:74] No data in processing queue, waiting...
+I0218 09:47:16.510859 20812 processor.cc:74] No data in processing queue, waiting...
+I0218 09:47:16.510859 20840 processor.cc:74] No data in processing queue, waiting...
+I0218 09:47:16.510859 19468 processor.cc:74] No data in processing queue, waiting...
+I0218 09:47:16.510859  7376 processor.cc:74] No data in processing queue, waiting...
+I0218 09:47:16.514855 14664 c_interface.cc:339] Disposing MasterComponent (id=3)...
+I0218 09:48:41.356680 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 208 bytes...
+I0218 09:49:02.823122 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 208 bytes...
+I0218 09:52:44.317718 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 09:52:44.317718 14664 c_interface.cc:274] Creating MasterModel (id=6)...
+I0218 09:52:44.318717 14664 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 8
+W0218 09:52:44.353716  1304 helpers.cc:231] File already exists: lectures_batches\aaaaaa.batch
+W0218 09:52:44.383715  3216 helpers.cc:231] File already exists: lectures_batches\aaaaab.batch
+W0218 09:52:44.397716 20740 helpers.cc:231] File already exists: lectures_batches\aaaaae.batch
+W0218 09:52:44.403717 20744 helpers.cc:231] File already exists: lectures_batches\aaaaac.batch
+W0218 09:52:44.408716 11968 helpers.cc:231] File already exists: lectures_batches\aaaaad.batch
+W0218 09:52:44.422715 20748 helpers.cc:231] File already exists: lectures_batches\aaaaaf.batch
+W0218 09:52:44.429718  6412 helpers.cc:231] File already exists: lectures_batches\aaaaah.batch
+W0218 09:52:44.434716  1304 helpers.cc:231] File already exists: lectures_batches\aaaaai.batch
+W0218 09:52:44.442715  6676 helpers.cc:231] File already exists: lectures_batches\aaaaag.batch
+W0218 09:52:44.535717  3216 helpers.cc:231] File already exists: lectures_batches\aaaaaj.batch
+W0218 09:52:44.556716  6676 helpers.cc:231] File already exists: lectures_batches\aaaaaq.batch
+W0218 09:52:44.557716  3216 helpers.cc:231] File already exists: lectures_batches\aaaaar.batch
+W0218 09:52:44.693739  1304 helpers.cc:231] File already exists: lectures_batches\aaaaap.batch
+W0218 09:52:44.705740 20740 helpers.cc:231] File already exists: lectures_batches\aaaaak.batch
+W0218 09:52:44.713739  6412 helpers.cc:231] File already exists: lectures_batches\aaaaao.batch
+W0218 09:52:44.725742 20744 helpers.cc:231] File already exists: lectures_batches\aaaaal.batch
+W0218 09:52:44.735743 20748 helpers.cc:231] File already exists: lectures_batches\aaaaan.batch
+W0218 09:52:44.749744 11968 helpers.cc:231] File already exists: lectures_batches\aaaaam.batch
+I0218 09:52:44.769739 14664 c_interface.cc:375] Pass c0873d87-9585-41f4-8328-a56cd523aaa1 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 09:52:44.769739 14664 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=c0873d87-9585-41f4-8328-a56cd523aaa1, data_path=lectures_batches, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0218 09:52:44.770738 14664 dictionary_operations.cc:265] Found 18 batches in 'lectures_batches' folder
+I0218 09:52:45.047739 14664 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0218 09:52:45.099738 14664 dictionary_operations.cc:611] Dictionary name='c0873d87-9585-41f4-8328-a56cd523aaa1' contains entries: author:539; text:26327; 
+I0218 09:52:45.106740 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=31, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 09:52:45.106740 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 09:52:45.106740 14664 c_interface.cc:274] Creating MasterModel (id=7)...
+I0218 09:52:45.106740 22320 processor.cc:58] Processor thread started
+I0218 09:52:45.106740 22324 processor.cc:58] Processor thread started
+I0218 09:52:45.106740 22328 processor.cc:58] Processor thread started
+I0218 09:52:45.106740 22332 processor.cc:58] Processor thread started
+I0218 09:52:45.106740 22336 processor.cc:58] Processor thread started
+I0218 09:52:45.106740 22340 processor.cc:58] Processor thread started
+I0218 09:52:45.107975 22344 processor.cc:58] Processor thread started
+I0218 09:52:45.107975 20372 processor.cc:66] Processor thread stopped
+I0218 09:52:45.107975 20372 processor.cc:67] Total number of processed batches: 0
+I0218 09:52:45.107975 22348 processor.cc:58] Processor thread started
+I0218 09:52:45.109742  7376 processor.cc:66] Processor thread stopped
+I0218 09:52:45.109742  7376 processor.cc:67] Total number of processed batches: 0
+I0218 09:52:45.111295  5784 processor.cc:66] Processor thread stopped
+I0218 09:52:45.111295  5784 processor.cc:67] Total number of processed batches: 0
+I0218 09:52:45.113256  7396 processor.cc:66] Processor thread stopped
+I0218 09:52:45.113256  7396 processor.cc:67] Total number of processed batches: 0
+I0218 09:52:45.114257 20812 processor.cc:66] Processor thread stopped
+I0218 09:52:45.114257 20812 processor.cc:67] Total number of processed batches: 0
+I0218 09:52:45.115772 19468 processor.cc:66] Processor thread stopped
+I0218 09:52:45.115772 19468 processor.cc:67] Total number of processed batches: 0
+I0218 09:52:45.117772 20840 processor.cc:66] Processor thread stopped
+I0218 09:52:45.117772 20840 processor.cc:67] Total number of processed batches: 0
+I0218 09:52:45.119771 20300 processor.cc:66] Processor thread stopped
+I0218 09:52:45.119771 20300 processor.cc:67] Total number of processed batches: 0
+I0218 09:52:45.119771 14664 c_interface.cc:339] Disposing MasterComponent (id=5)...
+I0218 09:52:45.135769 22340 processor.cc:74] No data in processing queue, waiting...
+I0218 09:52:45.135769 22320 processor.cc:74] No data in processing queue, waiting...
+I0218 09:52:45.135769 22328 processor.cc:74] No data in processing queue, waiting...
+I0218 09:52:45.135769 22332 processor.cc:74] No data in processing queue, waiting...
+I0218 09:52:45.135769 22324 processor.cc:74] No data in processing queue, waiting...
+I0218 09:52:45.135769 22336 processor.cc:74] No data in processing queue, waiting...
+I0218 09:52:45.138768 22344 processor.cc:74] No data in processing queue, waiting...
+I0218 09:52:45.138768 22348 processor.cc:74] No data in processing queue, waiting...
+I0218 09:52:45.522769 14664 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 09:52:45.522769 14664 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 09:52:45.522769 14664 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=c0873d87-9585-41f4-8328-a56cd523aaa1, topic_name_size=31, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0218 09:52:45.685801 14664 master_component.cc:702] InitializeModel() created matrix pwt with 31 topics and 26866 tokens; 
+I0218 09:52:45.686803 14664 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=c0873d87-9585-41f4-8328-a56cd523aaa1, topic_name_size=31, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0218 09:52:45.849802 14664 master_component.cc:702] InitializeModel() created matrix nwt with 31 topics and 26866 tokens; 
+I0218 09:52:45.849802 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 316 bytes...
+I0218 10:25:48.277621 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 600 bytes...
+I0218 10:25:48.279587 14664 phi_matrix_operations.cc:150] RetrieveExternalTopicModel() with 31 topics, 26866 tokens
+I0218 10:25:48.297619 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 825341 bytes...
+I0218 10:25:48.310636 14664 phi_matrix_operations.cc:150] RetrieveExternalTopicModel() with 31 topics, 26866 tokens
+I0218 10:25:48.331585 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 717877 bytes...
+I0218 10:25:48.339637 14664 c_interface.cc:236] ArtmCopyRequestedObject is copying 3331384 bytes...
+I0218 10:26:14.406507 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 600 bytes...
+I0218 10:27:31.235281 14664 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=31, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0218 10:27:31.235281 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 10:27:31.236284 14664 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=31, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0218 10:27:31.236284 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 10:28:57.775677 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 10:28:57.775677 14664 c_interface.cc:274] Creating MasterModel (id=8)...
+I0218 10:28:57.776679 14664 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 8
+W0218 10:28:57.809677 20184 helpers.cc:231] File already exists: lectures_batches\aaaaaa.batch
+W0218 10:28:57.839677 18252 helpers.cc:231] File already exists: lectures_batches\aaaaab.batch
+W0218 10:28:57.865679 24284 helpers.cc:231] File already exists: lectures_batches\aaaaac.batch
+W0218 10:28:57.871678  9656 helpers.cc:231] File already exists: lectures_batches\aaaaad.batch
+W0218 10:28:57.877679 15604 helpers.cc:231] File already exists: lectures_batches\aaaaaf.batch
+W0218 10:28:57.881678 22096 helpers.cc:231] File already exists: lectures_batches\aaaaae.batch
+W0218 10:28:57.891677 20184 helpers.cc:231] File already exists: lectures_batches\aaaaai.batch
+W0218 10:28:57.906678 23684 helpers.cc:231] File already exists: lectures_batches\aaaaah.batch
+W0218 10:28:57.913678 21712 helpers.cc:231] File already exists: lectures_batches\aaaaag.batch
+W0218 10:28:57.973678 18252 helpers.cc:231] File already exists: lectures_batches\aaaaaj.batch
+W0218 10:28:57.999678 18252 helpers.cc:231] File already exists: lectures_batches\aaaaar.batch
+W0218 10:28:58.028679 21712 helpers.cc:231] File already exists: lectures_batches\aaaaaq.batch
+W0218 10:28:58.142680 24284 helpers.cc:231] File already exists: lectures_batches\aaaaak.batch
+W0218 10:28:58.155680  9656 helpers.cc:231] File already exists: lectures_batches\aaaaal.batch
+W0218 10:28:58.167678 20184 helpers.cc:231] File already exists: lectures_batches\aaaaao.batch
+W0218 10:28:58.179679 23684 helpers.cc:231] File already exists: lectures_batches\aaaaap.batch
+W0218 10:28:58.190677 22096 helpers.cc:231] File already exists: lectures_batches\aaaaan.batch
+W0218 10:28:58.211678 15604 helpers.cc:231] File already exists: lectures_batches\aaaaam.batch
+I0218 10:28:58.232676 14664 c_interface.cc:375] Pass 10ce976e-33e3-43bd-9ec1-278ce4d2f7d6 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 10:28:58.232676 14664 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=10ce976e-33e3-43bd-9ec1-278ce4d2f7d6, data_path=lectures_batches, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0218 10:28:58.234678 14664 dictionary_operations.cc:265] Found 18 batches in 'lectures_batches' folder
+I0218 10:28:58.511193 14664 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0218 10:28:58.561190 14664 dictionary_operations.cc:611] Dictionary name='10ce976e-33e3-43bd-9ec1-278ce4d2f7d6' contains entries: author:539; text:26327; 
+I0218 10:28:58.567190 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=31, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 10:28:58.567190 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 10:28:58.567190 21292 processor.cc:58] Processor thread started
+I0218 10:28:58.567190 14664 c_interface.cc:274] Creating MasterModel (id=9)...
+I0218 10:28:58.567190 24092 processor.cc:58] Processor thread started
+I0218 10:28:58.567190  3036 processor.cc:58] Processor thread started
+I0218 10:28:58.568190 24316 processor.cc:58] Processor thread started
+I0218 10:28:58.568190 23320 processor.cc:58] Processor thread started
+I0218 10:28:58.568190 22868 processor.cc:58] Processor thread started
+I0218 10:28:58.568190 23656 processor.cc:58] Processor thread started
+I0218 10:28:58.568190  5524 processor.cc:58] Processor thread started
+I0218 10:28:58.598239  3036 processor.cc:74] No data in processing queue, waiting...
+I0218 10:28:58.598239 24092 processor.cc:74] No data in processing queue, waiting...
+I0218 10:28:58.598239 21292 processor.cc:74] No data in processing queue, waiting...
+I0218 10:28:58.600239 24316 processor.cc:74] No data in processing queue, waiting...
+I0218 10:28:58.600239 23656 processor.cc:74] No data in processing queue, waiting...
+I0218 10:28:58.600239 22868 processor.cc:74] No data in processing queue, waiting...
+I0218 10:28:58.600239  5524 processor.cc:74] No data in processing queue, waiting...
+I0218 10:28:58.600239 23320 processor.cc:74] No data in processing queue, waiting...
+I0218 10:28:59.835265 14664 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=31, score_config_size=2, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0218 10:28:59.835265 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 10:28:59.835265 14664 c_interface.cc:389] Pass MasterModelConfig: topic_name_size=31, score_config_size=3, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to void (__cdecl artm::core::MasterComponent::*)(class artm::MasterModelConfig const & __ptr64) __ptr64
+I0218 10:28:59.835265 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 10:28:59.835265 14664 c_interface.cc:375] Pass pwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 10:28:59.836247 14664 c_interface.cc:375] Pass nwt to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 10:28:59.836247 14664 c_interface.cc:389] Pass InitializeModelArgs: model_name=pwt, dictionary_name=10ce976e-33e3-43bd-9ec1-278ce4d2f7d6, topic_name_size=31, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0218 10:28:59.966776 14664 master_component.cc:702] InitializeModel() created matrix pwt with 31 topics and 26866 tokens; 
+I0218 10:28:59.966776 14664 c_interface.cc:389] Pass InitializeModelArgs: model_name=nwt, dictionary_name=10ce976e-33e3-43bd-9ec1-278ce4d2f7d6, topic_name_size=31, seed=1 to void (__cdecl artm::core::MasterComponent::*)(class artm::InitializeModelArgs const & __ptr64) __ptr64
+I0218 10:29:00.110777 14664 master_component.cc:702] InitializeModel() created matrix nwt with 31 topics and 26866 tokens; 
+I0218 10:29:00.110777 14664 c_interface.cc:231] ArtmCopyRequestedMessage is copying 380 bytes...
+I0218 10:29:08.701256 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 10:29:08.701256 14664 c_interface.cc:274] Creating MasterModel (id=10)...
+I0218 10:29:08.702256 14664 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 8
+W0218 10:29:08.731256 22096 helpers.cc:231] File already exists: lectures_batches\aaaaaa.batch
+W0218 10:29:08.756256 23684 helpers.cc:231] File already exists: lectures_batches\aaaaab.batch
+W0218 10:29:08.774256 21712 helpers.cc:231] File already exists: lectures_batches\aaaaae.batch
+W0218 10:29:08.785256 24284 helpers.cc:231] File already exists: lectures_batches\aaaaac.batch
+W0218 10:29:08.794256  9656 helpers.cc:231] File already exists: lectures_batches\aaaaaf.batch
+W0218 10:29:08.800257 15604 helpers.cc:231] File already exists: lectures_batches\aaaaad.batch
+W0218 10:29:08.813257 22096 helpers.cc:231] File already exists: lectures_batches\aaaaai.batch
+W0218 10:29:08.819257 18252 helpers.cc:231] File already exists: lectures_batches\aaaaah.batch
+W0218 10:29:08.831256 20184 helpers.cc:231] File already exists: lectures_batches\aaaaag.batch
+W0218 10:29:08.898258 23684 helpers.cc:231] File already exists: lectures_batches\aaaaaj.batch
+W0218 10:29:08.917258 23684 helpers.cc:231] File already exists: lectures_batches\aaaaar.batch
+W0218 10:29:08.938256 20184 helpers.cc:231] File already exists: lectures_batches\aaaaaq.batch
+W0218 10:29:09.073257 21712 helpers.cc:231] File already exists: lectures_batches\aaaaak.batch
+W0218 10:29:09.093258 22096 helpers.cc:231] File already exists: lectures_batches\aaaaao.batch
+W0218 10:29:09.101255 18252 helpers.cc:231] File already exists: lectures_batches\aaaaap.batch
+W0218 10:29:09.112257 24284 helpers.cc:231] File already exists: lectures_batches\aaaaal.batch
+W0218 10:29:09.119256 15604 helpers.cc:231] File already exists: lectures_batches\aaaaan.batch
+W0218 10:29:09.130256  9656 helpers.cc:231] File already exists: lectures_batches\aaaaam.batch
+I0218 10:29:09.148255 14664 c_interface.cc:375] Pass 6f1550d5-5cd4-44e4-a0cc-42e1678948ee to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 10:29:09.149258 14664 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=6f1550d5-5cd4-44e4-a0cc-42e1678948ee, data_path=lectures_batches, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0218 10:29:09.149258 14664 dictionary_operations.cc:265] Found 18 batches in 'lectures_batches' folder
+I0218 10:29:09.410260 14664 dictionary_operations.cc:331] Find 26866 unique tokens in 1728 items
+I0218 10:29:09.465256 14664 dictionary_operations.cc:611] Dictionary name='6f1550d5-5cd4-44e4-a0cc-42e1678948ee' contains entries: author:539; text:26327; 
+I0218 10:29:09.465256 14664 c_interface.cc:375] Pass 10ce976e-33e3-43bd-9ec1-278ce4d2f7d6 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0218 10:29:09.470255 14664 c_interface.cc:339] Disposing MasterComponent (id=8)...
+I0218 10:29:09.475257 14664 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=31, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=10, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0218 10:29:09.475257 14664 instance.cc:401] MasterModelConfig.processors_count is automatically set to 8
+I0218 10:29:09.476258 20948 processor.cc:58] Processor thread started
+I0218 10:29:09.476258 14664 c_interface.cc:274] Creating MasterModel (id=11)...
+I0218 10:29:09.476258  1236 processor.cc:58] Processor thread started
+I0218 10:29:09.476258 19248 processor.cc:58] Processor thread started
+I0218 10:29:09.476258 20728 processor.cc:58] Processor thread started
+I0218 10:29:09.476258 20148 processor.cc:58] Processor thread started
+I0218 10:29:09.476258 20700 processor.cc:58] Processor thread started
+I0218 10:29:09.476258  9480 processor.cc:58] Processor thread started
+I0218 10:29:09.476258  1276 processor.cc:58] Processor thread started
+I0218 10:29:09.477320 24092 processor.cc:66] Processor thread stopped
+I0218 10:29:09.477320 24092 processor.cc:67] Total number of processed batches: 0
+I0218 10:29:09.479256 21292 processor.cc:66] Processor thread stopped
+I0218 10:29:09.479256 21292 processor.cc:67] Total number of processed batches: 0
+I0218 10:29:09.480259  3036 processor.cc:66] Processor thread stopped
+I0218 10:29:09.480259  3036 processor.cc:67] Total number of processed batches: 0
+I0218 10:29:09.483258 24316 processor.cc:66] Processor thread stopped
+I0218 10:29:09.483258 24316 processor.cc:67] Total number of processed batches: 0
+I0218 10:29:09.484763 23320 processor.cc:66] Processor thread stopped
+I0218 10:29:09.484763 23320 processor.cc:67] Total number of processed batches: 0
+I0218 10:29:09.485770 22868 processor.cc:66] Processor thread stopped
+I0218 10:29:09.485770 22868 processor.cc:67] Total number of processed batches: 0
+I0218 10:29:09.487767 23656 processor.cc:66] Processor thread stopped
+I0218 10:29:09.487767 23656 processor.cc:67] Total number of processed batches: 0
+I0218 10:29:09.488768  55

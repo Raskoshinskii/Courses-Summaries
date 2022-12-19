@@ -1,0 +1,15 @@
+artifact_uri: file:///D:/GIT_REPOES/Courses-Cheat_Sheets/Courses/MLOps%20Zoomcamp/2.%20Experiment%20Tracking%20and%20Model%20Management/mlruns/0/d20d21eda34f4f948ca6ad34365a0154/artifacts
+end_time: 1656009068066
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+name: ''
+run_id: d20d21eda34f4f948ca6ad34365a0154
+run_uuid: d20d21eda34f4f948ca6ad34365a0154
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1656009061606
+status: 3
+tags: []
+user_id: vlad

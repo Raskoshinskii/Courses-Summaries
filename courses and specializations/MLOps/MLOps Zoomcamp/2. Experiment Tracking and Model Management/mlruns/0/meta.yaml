@@ -1,0 +1,4 @@
+artifact_location: file:///D:/GIT_REPOES/Courses-Cheat_Sheets/Courses/MLOps%20Zoomcamp/2.%20Experiment%20Tracking%20and%20Model%20Management/mlruns/0
+experiment_id: '0'
+lifecycle_stage: active
+name: iris_experiment_1
